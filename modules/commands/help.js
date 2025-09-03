@@ -3,7 +3,7 @@ const config = require('../../config/config.json');
 module.exports = {
     name: "help",
     version: "1.0.0",
-    author: "Hridoy",
+    author: "frnwot",
     description: "Shows the list of commands or details of a specific command.",
     adminOnly: false,
     commandCategory: "utility",
@@ -60,9 +60,9 @@ module.exports = {
         const totalCommands = commands.size;
         const helpMessage = [
             `╔═━─[  ${config.bot.botName} COMMAND LIST  ]─━═╗`,
-            `┃ Your personal Messenger assistant 💻`,
+            `┃ Your personal Messenger assistant 💻 baka chan`,
             `┃ Built for speed. Packed with swag.`,
-            `╠══════════════════════════════════╣`,
+            `╠════════════════════════════════════════╣`,
             ``,
             categoryLines,
             `╠══════════════════════════════════╣`,
