@@ -1,5 +1,5 @@
 {
-  "name": "nexasim-v2",
+  "name": "frnwot-v2",
   "version": "2.0.0",
   "description": "A customizable and scalable Facebook Messenger bot designed for group chat management, fun, and automation.",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "nexasim",
     "nodejs"
   ],
-  "author": "Hridoy Khan",
+  "author": "frnwot",
   "license": "MIT",
   "repository": {
     "type": "git",
