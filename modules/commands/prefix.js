@@ -4,8 +4,8 @@ const { connect } = require('../../includes/database');
 module.exports = {
     name: "prefix",
     version: "1.0.0",
-    author: "Hridoy",
-    description: "Shows bot info when the prefix is sent as a standalone message.",
+    author: "frnwot",
+    description: "Shows bot info when the prefix is sent as a standalone message bruh.",
     adminOnly: false,
     commandCategory: "utility",
     guide: "Send the bot's prefix (e.g., .) to see bot info.",
@@ -29,7 +29,7 @@ module.exports = {
             `╔═━─[ ${config.bot.botName} INFO ]─━═╗`,
             `┃ 🎗️ Bot Name: ${config.bot.botName}`,
             `┃ 👨‍👩‍👧‍👦 Total Members: ${totalMembers}`,
-            `┃ 👑 Owner: ${ownerName}`,
+            `┃ ⚙️ Owner: ${ownerName}`,
             `┃ ℹ️  Prefix: ${config.bot.prefix}`,
             `╚═━──────────────────────────────━═╝`
         ].join('\n');
