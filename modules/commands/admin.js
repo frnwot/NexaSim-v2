@@ -6,8 +6,8 @@ const logger = require('../../includes/logger');
 module.exports = {
     name: "admin",
     version: "1.0.0",
-    author: "Hridoy",
-    description: "Manages the bot admin list (admin only).",
+    author: "frnwot",
+    description: "Manages the bot admin list (frnwot).",
     adminOnly: true,
     commandCategory: "admin",
     guide: "Use {pn}admin to see admin list, {pn}admin add @user to add, or {pn}admin remove @user to remove.",
